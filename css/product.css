@@ -1,0 +1,504 @@
+.main {
+        margin-bottom: 80px;
+}
+
+.ibrohimjon {
+        margin: 44px 0 34px 0;
+}
+
+.ibrohimjon .container__Ibrohimjon {
+        max-width: 1376px;
+        margin: 0 auto;
+        padding: 0 100px;
+        display: grid;
+        gap: 20px;
+        grid-template-areas:
+                'a a b d'
+                'a a c e';
+}
+
+.Ibrohimjon__images1 {
+        grid-area: a;
+}
+
+.Ibrohimjon__images2 {
+        grid-area: b;
+}
+
+.Ibrohimjon__images3 {
+        grid-area: c;
+}
+
+.Ibrohimjon__images4 {
+        grid-area: d;
+}
+
+.Ibrohimjon__images5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background: url(../images/ib5.png);
+        grid-area: e;
+}
+
+.ota-ona .container__Ibrohimjon {
+        max-width: 1376px;
+        margin: 0 auto;
+        padding: 0 100px;
+        display: flex;
+        justify-content: space-between;
+        gap: 11px;
+}
+
+.container__Ibrohimjon .ibrohimjon__left {
+        max-width: 880px;
+
+}
+
+.container__Ibrohimjon .ibrohimjon__right {
+        max-width: 280px;
+        padding: 14px 15px 34px 33px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        box-shadow: 1px 2px 2px 0.5px #384c5c;
+}
+
+.divda-hullas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+}
+
+.divda-hullas .ptext {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+}
+
+.ibrohimjon__right input {
+        padding-bottom: 4px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #0D263B;
+}
+
+.massageee {
+        border-bottom: 2px solid #0D263B;
+}
+
+.remember {
+        padding-left: 20px;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+}
+
+.remember input {
+        position: absolute;
+        top: 6px;
+        left: 0;
+}
+
+.btn20491909552910 {
+        padding: 12px 40px;
+        border: none;
+        border: 2px solid transparent;
+        color: #fff;
+        border-radius: 5px;
+        background-color: #0061DF;
+        transition: 0.5s;
+}
+
+.btn20491909552910:hover {
+        color: #0061DF;
+        border: 2px solid #0061DF;
+        background-color: transparent;
+        border-radius: 5px;
+}
+
+.ibrohimjon__leftt {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+}
+
+.navbarchalik {
+        display: flex;
+        justify-content: center;
+        gap: 266px;
+        align-items: center;
+}
+
+.navbarchalik h1 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+}
+
+.ibrohimjon__rightt {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+}
+
+.iconsss {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+}
+
+.iconnnnn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00000018;
+        padding: 11px;
+        box-shadow: #000;
+        border: 1px solid transparent;
+        border-radius: 50px;
+
+}
+
+.iconchalar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.iconchalar__left {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+}
+
+.iconlarni {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+}
+
+.contentchalar__right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+}
+
+.content__content {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+}
+
+.nimadur__kimdur {
+        margin-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+}
+
+.Ibrohimjon__axiyri {
+        display: flex;
+        gap: 48px;
+        align-items: center;
+}
+
+.axiyri__top {
+        display: flex;
+        gap: 24px;
+        align-items: flex-end;
+}
+
+.axiyri__center {
+        display: flex;
+        align-items: flex-start;
+        gap: 1px;
+}
+
+.mamama {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+}
+
+.uchtalik-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+}
+
+.uchtalik-div-top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+}
+
+h1.large1 span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #696969;
+}
+
+.Line .container .line {
+        background-color: #E6E9EC;
+}
+
+.Features {
+        margin: 48px auto;
+}
+
+.Features .container .line {
+        background-color: #E6E9EC;
+}
+
+.keraksan {
+        margin-top: 48px;
+        margin-bottom: 24px;
+}
+
+.Detallar {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 48px;
+}
+
+.detallar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+}
+
+p.yangicha {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+}
+
+.Tour input {
+        padding-bottom: 4px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #E6E9EC;
+        flex-shrink: 1;
+        flex-grow: 1;
+}
+
+.inputs {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 20px;
+}
+
+.inputs .inputs__time input {
+        width: 100%;
+}
+
+.inputs__time {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        flex-shrink: 1;
+        flex-grow: 1;
+}
+
+.informations {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        flex-shrink: 1;
+        flex-grow: 1;
+}
+
+.massages {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+}
+
+.butttooonn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+
+.Check-in {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 110px;
+}
+
+.chek-in {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+}
+
+.Check-in p.yangicha {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+}
+
+.Ellipse {
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+}
+
+.Jane__Cooper {
+        width: 380px;
+        margin-bottom: 48px;
+}
+
+
+.div__jane {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 85px;
+}
+
+.div__jane-star {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+}
+
+.Rewiev {
+        margin-bottom: 70px;
+}
+
+.Check-on {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.check-on {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+}
+
+.Check-on .check-on p.yangichaa {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 115px;
+}
+
+.images__stars {
+        display: flex;
+}
+
+.card {
+        max-width: 380px;
+        padding: 8px 20px 20px 20px;
+}
+
+.card__img {
+        max-width: 380px;
+        height: 220px;
+        padding: 8px 20px 20px 20px;
+        background: url('../images/images.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+
+.nav__buttons {
+        display: flex;
+        justify-content: space-between;
+}
+
+.btn {
+        padding: 5px 12px;
+        border: none;
+        background-color: #0061DF;
+        color: #fff;
+        border-radius: 3px;
+}
+
+.color {
+        background-color: #0D263B;
+}
+
+.translate {
+        box-shadow: 2px;
+        position: absolute;
+        top: 200px;
+        right: 22px;
+}
+
+.vanna {
+        margin: 16px 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 35px;
+}
+
+.vanna__img {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+}
+
+.line100 {
+        margin-bottom: 8px;
+        width: 100%;
+        height: 1px;
+        background-color: #E6E9EC;
+}
+
+.under__icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.under__icon-right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+}
+
+.cards .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+}
+
+.uchburchak {
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.dumaloqchalar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+}
+.ong-chap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+}

@@ -1,0 +1,234 @@
+:root {
+        --white: #fff;
+        --dark: #000;
+        --bg-color: #0D263B;
+        --blue: #0061DF;
+}
+
+p.yangicha {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #696969;
+}
+
+h1.small {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+}
+
+h1.large1 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #0D263B;
+}
+
+h1.large {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: var(--white);
+        position: relative;
+}
+
+p.description1 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #696969;
+}
+
+p.description {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: var(--white);
+        position: relative;
+}
+
+p.description:hover {
+        cursor: pointer;
+        color: #48ff00;
+}
+
+p.description::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -2px;
+        width: 0;
+        height: 2px;
+        background-color: #48ff00;
+        transition: width 0.7s ease;
+        transform: translateX(-50%);
+}
+
+p.description:hover::after {
+        width: 100%;
+}
+
+h1.large:hover {
+        cursor: pointer;
+        color: gold;
+}
+
+h1.large::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -2px;
+        width: 0;
+        height: 2px;
+        background-color: gold;
+        transition: width 0.7s ease;
+        transform: translateX(-50%);
+}
+
+h1.large:hover::after {
+        width: 100%;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+}
+
+.navbar {
+        background-color: var(--bg-color);
+        padding: 12px 0;
+}
+
+.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 5px 10px;
+}
+
+.nav {
+        color: var(--white);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.nav__center-links {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+}
+
+
+.nav__center-links a:hover {
+        color: #48ff00;
+}
+
+.nav__center-links a::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -2px;
+        width: 0;
+        height: 2px;
+        background-color: #48ff00;
+        transition: width 0.7s ease;
+        transform: translateX(-50%);
+}
+
+.nav__center-links a:hover::after {
+        width: 100%;
+}
+
+.nav__center-links a {
+        text-decoration: none;
+        color: var(--white);
+        position: relative;
+        text-decoration: none;
+}
+
+.line {
+        max-width: 1300px;
+        height: 1px;
+        background-color: var(--white);
+        margin: 24px auto;
+}
+
+.leg .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+}
+
+#footer {
+        background-color: var(--bg-color);
+        padding: 48px 0 16px 0;
+}
+
+.leg__1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+}
+
+.leg__1-center {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+}
+
+.leg-top {
+        display: flex;
+        align-items: center;
+        gap: 21px;
+}
+
+.leg-bottom {
+        display: flex;
+        align-items: center;
+        gap: 37px;
+}
+
+.nav__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.nav__right {
+        display: flex;
+        align-items: center;
+        gap: 73px;
+}
+
+.btn-icon {
+        border: none;
+        padding: 15px 18px;
+        background-color: var(--blue);
+}
+
+.hover:hover {
+        color: #0061DF;
+        background-color: #fff;
+        border: 2px solid #0061DF;
+        border-radius: 3px;
+}
+
+.login__login {
+        padding: 12px 40px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 2px;
+}
+
+.login__login:hover {
+        cursor: pointer;
+        color: #48ff00;
+        border: 1.5px solid #48ff00;
+}

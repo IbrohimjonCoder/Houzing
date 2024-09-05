@@ -1,0 +1,31 @@
+.box {
+        max-width: 580px ;
+        margin: 64px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+        padding: 24px 30px 48px 30px;
+        box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.box input {
+        padding-bottom: 4px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #E6E9EC;
+}
+
+.register {
+        padding: 12px 40px;
+        border: none;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background-color: #0061DF;
+        color: #fff;
+}
+
+.register:hover {
+        background-color: transparent;
+        color: #0061DF;
+        border: 2px solid #0061DF;
+}
